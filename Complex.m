@@ -1,3 +1,4 @@
+
 format short
 z1 = 3.21*exp(15*i);
 fprintf("%f + %fi\n", real(z1),imag(z1));
@@ -11,3 +12,4 @@ x=rand()/rand();
 format long
 disp(exp(x*i));
 disp(cos(x) + sin(x) * i);
+disp(x*i);
