@@ -1,0 +1,4 @@
+v=1.8:0.1:2.8
+f = (2.718281828+v).*sin(pi*sqrt(v-1))
+subplot (2,1,1); plot (v,f); title('(e+x)(sin(pi*sqrt(x-1)))'); xlabel('Data'); ylabel('Result');
+subplot (2,1,2); plot (v,1-f); title('1-(e+x)(sin(pi*sqrt(x-1)))'); xlabel('Data'); ylabel('Result2');
